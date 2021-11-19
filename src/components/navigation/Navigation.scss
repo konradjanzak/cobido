@@ -1,0 +1,23 @@
+.navigationMainContainer {
+  .hamburgerIcon,
+  .closeIcon {
+    position: fixed;
+    top: 50px;
+    right: 5%;
+  }
+
+  .navigationList {
+    position: fixed;
+    top: 100px;
+    right: 5%;
+    text-align: right;
+    list-style: none;
+    li {
+      margin-bottom: 10px;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+  }
+}
